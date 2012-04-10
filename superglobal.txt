@@ -1,0 +1,8 @@
+Super global variales: Because the variables are avilable even before the page load.
+
+$_GET
+$_POST
+$_COOOKIE
+$_SESSION
+$_SERVER
+
