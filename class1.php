@@ -1,5 +1,9 @@
 <?php
-	class student{		
+	class student{
+		var $first_name;
+		var $last_name;
+		
+		var $total_student = 35;
 		function say_name($name){
 			echo "My name is ".$name." <br />";
 			echo "This is the answer from ". get_class($this)." class <br />";
@@ -22,5 +26,7 @@
 	
 	$student->say_name("pritam"); //calling "say_name" method of student class.
 	$student->ref();
+	
+	echo $student1->total_student ;
 	
 ?>
